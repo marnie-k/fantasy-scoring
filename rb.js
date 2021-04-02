@@ -1,48 +1,48 @@
-var rushingYards = a
-var rushingTd = b
-var rushingFumble = c
-var reception = d
-var receivingYards = e
-var receivingTd = f
-var receivingFumble = g
-var kickReturnYards = h
-var kickReturnTd = i
-var kickReturnFumble = j
-var puntReturnYards = k
-var puntReturnTd = l
-var puntReturnFumble = m
+var rushingYards = ry
+var rushingTd = rtd
+var rushingFumble = rf
+var reception = rc
+var receivingYards = recy
+var receivingTd = rectd
+var receivingFumble = recf
+var kickReturnYards = kry
+var kickReturnTd = krtd
+var kickReturnFumble = krf
+var puntReturnYards = pry
+var puntReturnTd = prtd
+var puntReturnFumble = prf
 
 scoring 
 {
-    rush-yards (a / 10);
-    rush-TD (b * 6);
-    rush-fumble (c * -3);
-    recept (d * 1);
-    rec-yards (e / 10);
-    rec-TD (f * 6);
-    rec-fumble (g * -3);
-    kr-yards (h / 15);
-    kr-TD (i * 6);
-    kr-fumble (j * -3);
-    pr-yards (k / 15);
-    pr-TD (l * 6);
-    pr-fumble (m * -3);
+    rushYards (ry / 10);
+    rushTd (rtd * 6);
+    rushFumble (rf * -3);
+    recept (rc * 1);
+    recYards (recy / 10);
+    recTd (rectd * 6);
+    recFumble (recf * -3);
+    krYards (kry / 15);
+    krTd (krtd * 6);
+    krFumble (krf * -3);
+    prYards (pry / 15);
+    prTd (prtd * 6);
+    prFumble (prf * -3);
 }
 
 total-score (
-    rush-yards +
-    rush-TD +
-    rush-fumble +
+    rushYards +
+    rushTd +
+    rushFumble +
     recept +
-    rec-yards +
-    rec-TD +
-    rec-fumble +
-    kr-yards +
-    kr-TD +
-    kr-fumble +
-    pr-yards +
-    pr-TD +
-    pr-fumble
+    recYards +
+    recTd +
+    recFumble +
+    krYards +
+    krTd +
+    krFumble +
+    prYards +
+    prTd +
+    prFumble
 )
 
     console.log.total-score
