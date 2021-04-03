@@ -1,16 +1,16 @@
-var rushingYards = ry
-var rushingTd = rtd
-var rushingFumble = rf
-var reception = rc
-var receivingYards = recy
-var receivingTd = rectd
-var receivingFumble = recf
-var kickReturnYards = kry
-var kickReturnTd = krtd
-var kickReturnFumble = krf
-var puntReturnYards = pry
-var puntReturnTd = prtd
-var puntReturnFumble = prf
+var ry = player.stats.rushing.yards 
+var rtd = player.stats.rushing.touchdowns
+var rf = player.stats.rushing.fumbles
+var rc = player.stats.receiving.receptions
+var recy = player.stats.receiving.yards
+var rectd = player.stats.receiving.touchdowns
+var recf = player.stats.receiving.fumbles
+var kry = player.stats.return.kickreturn.yards
+var krtd = player.stats.return.kickreturn.touchdowns
+var krf = player.stats.return.kickreturn.fumbles
+var pry = player.stats.return.puntreturn.yards
+var prtd = player.stats.return.puntreturn.touchdowns
+var prf = player.stats.return.puntreturn.fumbles
 
 scoring 
 {
