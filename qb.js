@@ -44,4 +44,5 @@ total-score (
     rushFumble
 )
 
+
 module.exports = scoring
