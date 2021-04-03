@@ -1,3 +1,37 @@
+const player = {
+    name: 'LeSean McCoy',
+    position: 'RB',
+    team: 'Buffalo',
+    stats: {
+      rushing: { 
+        attempts: 18, 
+        yards: 103, 
+        touchdowns: 2, 
+        fumbles: 0 },
+     
+        receiving: { 
+        receptions: 6, 
+        yards: 37, 
+        touchdowns: 0, 
+        fumbles: 0 },
+
+      return: {
+        kickreturn: { 
+          returns: 0, 
+          yards: 0, 
+          touchdowns: 0, 
+          fumbles: 0 },
+
+        puntreturn: { 
+          returns: 0, 
+          yards: 0, 
+          touchdowns: 0, 
+          fumbles: 0 },
+
+      },
+    }
+}
+
 var ry = player.stats.rushing.yards 
 var rtd = player.stats.rushing.touchdowns
 var rf = player.stats.rushing.fumbles
@@ -45,4 +79,4 @@ total-score (
     prFumble
 )
 
-    console.log.total-score
+module.exports = scoring

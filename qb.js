@@ -1,3 +1,24 @@
+const player = {
+    name: 'Patrick Mahomes',
+    position: 'QB',
+    team: 'Kansas City',
+    stats: {
+      passing: {
+        attempts: 25,
+        completions: 18,
+        yards: 363,
+        touchdowns: 3,
+        interceptions: 0
+      },
+      rushing: { 
+        attempts: 3, 
+        yards: 22, 
+        touchdowns: 1, 
+        fumbles: 0 }
+    }
+  }
+
+
 var py = player.stats.passing.yards 
 var ptd = player.stats.passing.touchdowns
 var int = player.stats.passing.interceptions
@@ -22,4 +43,5 @@ total-score (
     rushTd +
     rushFumble
 )
-    console.log.total-score
+
+module.exports = scoring
