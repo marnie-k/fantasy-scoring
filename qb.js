@@ -1,9 +1,9 @@
-var passYards = py
-var passTd = ptd
-var intercept = int
-var rushYards = ry
-var rushTd = rtd
-var rushFumble = rf
+var player.stats.passing.yards = py
+var player.stats.passing.touchdowns = ptd
+var player.stats.passing.interceptions = int
+var player.stats.rushing.yards = ry
+var player.stats.rushing.touchdowns = rtd
+var player.stats.rushing.fumbles = rf
 
 scoring 
 {
