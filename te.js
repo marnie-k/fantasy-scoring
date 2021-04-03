@@ -1,3 +1,17 @@
+const player = {
+    name: 'Rob Gronkowski',
+    position: 'TE',
+    team: 'New England',
+    stats: {
+      receiving: { 
+        receptions: 8, 
+        yards: 137, 
+        touchdowns: 2, 
+        fumbles: 0 },
+    }
+  }
+
+
 var reception = r;
 var recYards = ry;
 var recTd = rtd;
@@ -18,4 +32,4 @@ total_score (
     recFumble 
 )
 
-console.log.total_score
+module.exports = scoring

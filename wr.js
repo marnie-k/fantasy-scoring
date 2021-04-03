@@ -1,3 +1,38 @@
+const player = {
+    name: 'Tyler Lockett',
+    position: 'WR',
+    team: 'Seattle',
+    stats: {
+      rushing: { 
+        attempts: 0, 
+        yards: 0, 
+        touchdowns: 0, 
+        fumbles: 0 },
+
+      receiving: { 
+          receptions: 6, 
+          yards: 91, 
+          touchdowns: 1, 
+          fumbles: 0 },
+
+          return: {
+        kickreturn: { 
+          returns: 2, 
+          yards: 16, 
+          touchdowns: 0, 
+          fumbles: 1 },
+        
+          puntreturn: { 
+            returns: 3, 
+            yards: 107, 
+            touchdowns: 1, 
+            fumbles: 0 
+          },
+      },
+    }
+  }
+
+
 var rushingYards = ry
 var rushingTd = rtd
 var rushingFumble = rf
@@ -45,4 +80,4 @@ total-score (
     prFumble
 )
 
-    console.log.total-score
+module.exports = scoring
