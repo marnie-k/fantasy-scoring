@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint --format codeframe .",
     "lint:fix": "./node_modules/.bin/eslint --fix --format codeframe .",
-    "test": "./node_modules/.bin/mocha tests.js"
+    //"test": "./node_modules/.bin/mocha tests.js"
+    "test": "/Users/marnieelly/Desktop/Stack/week-05-02/fantasy-scoring/tests.js"
   },
   "repository": {
     "type": "git",
